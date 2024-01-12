@@ -1,0 +1,46 @@
+menu{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 25%;
+    width: auto;
+    height: auto;
+}
+img[src="logo.webp"] {
+    width: 5em;
+    height: auto;
+    border-radius: 50%;
+}
+menu>h1 {
+    font-weight: bolder;
+    text-shadow: 1px 1px 4px rgb(49, 48, 48);
+}
+header>input[type="search"] {
+    width: 450px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: hsla(0, 0%, 96%, .8);
+    transition: .3s ease-in-out;
+}
+header>input[type="search"]:hover {
+    background-color: hsl(0, 0%, 96%);
+}
+header>input[type="search"]:focus {
+    width: 650px;
+}
+menu>a {
+    font-size: 1.2em;
+    transition: .3s ease-in-out;
+}
+menu>a:hover {
+    font-size: 1.3em;
+}
+menu>a[href="#connecter"] {
+    padding: 2% 4% 2% 4%;
+    background: whitesmoke;
+    border: 1px solid rgb(55, 55, 156);
+    border-radius: 50px;
+}
